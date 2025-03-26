@@ -15,9 +15,12 @@ start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" ^
 exit
 ```
 保存，然后重命名为Github-host.bat，注意不要保留.txt后缀
-需要注意的是文件路径与C:\Program Files\Google\Chrome\Application\chrome.exe是否一致，如果不一致，则需要修改为正确的路径。
 
-你的电脑中需要有谷歌浏览器，你也可以选择其他浏览器，例如Microsoft Edge，需要把命令中的
+双击运行Github-host.bat文件，会启动谷歌浏览器，并打开github.com，所以你不需要点击收藏夹中的书签，或是输入网址，比较方便。
+
+需要注意的是浏览器的文件路径与C:\Program Files\Google\Chrome\Application\chrome.exe是否一致，如果不一致，则需要修改为正确的路径。
+
+这是使用谷歌浏览器的方法，你也可以选择其他浏览器，例如Microsoft Edge，需要把命令中的
 ```bat
 C:\Program Files\Google\Chrome\Application\chrome.exe
 ```
