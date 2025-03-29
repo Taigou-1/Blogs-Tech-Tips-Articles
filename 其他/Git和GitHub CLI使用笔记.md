@@ -6,15 +6,15 @@
 
 需要准备GitHub CLI和Git
 
-按win+R，在窗口中输入cmd，按enter键，电脑会打开cmd窗口
+按win+R，在出现的窗口中输入cmd，按enter键，电脑会打开cmd窗口
 
-输入gh auth login，
+输入gh auth login，（在GitHub CLI上登录你的Github账号）
 
 ![](https://github.com/Taigou-1/Blogs-Tech-Tips-Articles/blob/main/assets/1.png)
 
 窗口中会出现一些问题，建议依次选择【GitHub.com】,【HTTPS】，【Yes】，【Login with a web browser】，按照这些操作，就完成登录了。
 
-然后，输入这行代码，上传文件了（确保已经在网页端创建了release）
+然后，输入这行代码，可以把文件上传到（确保已经在网页端创建了release）
 
 ```
 gh release upload TAG名称 文件路径 --repo username/repositorie-name
@@ -25,3 +25,5 @@ gh release upload TAG名称 文件路径 --repo username/repositorie-name
 ```
 gh release upload 1.4.2 C:\Users\Think\Desktop\release1.4.2.zip --repo Taigou-1/Browser-Page-Text-Editor
 ```
+
+当窗口中出现“Successfully uploaded 1 asset to”，就说明你的文件成功上传到了release中。
