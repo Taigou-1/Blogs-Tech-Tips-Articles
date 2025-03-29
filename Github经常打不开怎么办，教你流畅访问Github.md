@@ -20,7 +20,7 @@ exit
 
 需要注意的是浏览器的文件路径与C:\Program Files\Google\Chrome\Application\chrome.exe是否一致，如果不一致，则需要修改为正确的路径。
 
-这是使用谷歌浏览器的方法，你也可以选择其他浏览器，例如Microsoft Edge，需要把命令中的
+这是使用谷歌浏览器的方法，你也可以选择Microsoft Edge浏览器（建议使用谷歌浏览器，方法更稳定），需要把命令中的
 ```bat
 C:\Program Files\Google\Chrome\Application\chrome.exe
 ```
