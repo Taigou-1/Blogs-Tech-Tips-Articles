@@ -27,3 +27,44 @@ gh release upload 1.4.2 C:\Users\Think\Desktop\release1.4.2.zip --repo Taigou-1/
 ```
 
 当窗口中出现“Successfully uploaded 1 asset to”，就说明你的文件成功上传到了release中。
+
+## 2.git基础操作
+
+### 检验能否链接:
+```
+curl -I http://github.com
+```
+
+### 将仓库克隆到本地:
+```
+git clone <repo>
+```
+例如:
+```
+git clone https://github.com/Taigou-1/Neoforge-Mod-Development-Tutorial.git
+```
+
+### 创建仓库
+创建新的仓库，将当前目录作为仓库
+```
+git init
+```
+
+### 改动
+添加计划改动（添加到缓存区）
+```
+git add <文件/目录>
+···
+所有改动
+```
+git add .
+```
+提交改动
+```
+git commit -m "提交信息"
+```
+
+### 推送改动
+···
+git push
+```
