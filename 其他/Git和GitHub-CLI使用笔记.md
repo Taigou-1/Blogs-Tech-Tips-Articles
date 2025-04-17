@@ -45,16 +45,28 @@ git clone https://github.com/Taigou-1/Neoforge-Mod-Development-Tutorial.git
 ```
 
 ### 创建仓库
-创建新的仓库，将当前目录作为仓库
+创建新的仓库，将当前的目录转换成一个 Git 仓库
 ```
 git init
+```
+关联到远程仓库
+```
+git remote add origin <url>
+```
+创建并切换到新分支
+```
+git checkout -b main
+```
+使用-u，设置上游分支，以后可以直接使用"git push"和"git pull"
+```
+git push -u origin main
 ```
 
 ### 改动
 添加计划改动（添加到缓存区）
 ```
 git add <文件/目录>
-···
+```
 所有改动
 ```
 git add .
@@ -65,6 +77,12 @@ git commit -m "提交信息"
 ```
 
 ### 推送改动
-···
-git push
+将改动推送到远程仓库
+```
+git push origin main
+```
+
+### 拉取远程更新
+```
+git pull origin main
 ```
