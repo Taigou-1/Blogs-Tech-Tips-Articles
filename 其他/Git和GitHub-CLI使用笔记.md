@@ -86,3 +86,8 @@ git push origin main
 ```
 git pull origin main
 ```
+
+### 撤销提交
+```
+git revert <commit>
+```
