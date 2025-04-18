@@ -96,3 +96,11 @@ git revert <commit>
 git reset --hard HEAD              # 丢弃所有未提交的修改（包括暂存区）
 git clean -df                      # 删除所有未跟踪的文件和目录（可选）
 ```
+
+### Vim 编辑器操作
+
+按 i 进入编辑模式（如果需要修改）。
+
+修改完成后，按 Esc 退出编辑模式。
+
+输入 :wq 保存并退出。
