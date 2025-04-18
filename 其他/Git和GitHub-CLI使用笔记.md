@@ -91,3 +91,8 @@ git pull origin main
 ```
 git revert <commit>
 ```
+放弃当前修改
+```
+git reset --hard HEAD              # 丢弃所有未提交的修改（包括暂存区）
+git clean -df                      # 删除所有未跟踪的文件和目录（可选）
+```
