@@ -104,3 +104,10 @@ git clean -df                      # 删除所有未跟踪的文件和目录（�
 修改完成后，按 Esc 退出编辑模式。
 
 输入 :wq 保存并退出。
+
+### 登录github
+```
+git config --global user.name "账号用户名"
+git config --global user.email "邮箱"
+```
+如果仅对一个仓库进行登录，则去掉"--global"
