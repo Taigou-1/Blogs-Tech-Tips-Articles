@@ -111,3 +111,8 @@ git config --global user.name "账号用户名"
 git config --global user.email "邮箱"
 ```
 如果仅对一个仓库进行登录，则去掉"--global"
+
+### 测试 GitHub 443 端口连通性
+```
+telnet github.com 443
+```
