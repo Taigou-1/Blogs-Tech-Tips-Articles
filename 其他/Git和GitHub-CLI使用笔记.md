@@ -91,6 +91,10 @@ git pull origin main
 ```
 git revert <commit>
 ```
+清除缓存区
+```
+git reset HEAD .  # 移除所有暂存区文件，保留工作区修改
+```
 放弃当前修改
 ```
 git reset --hard HEAD              # 丢弃所有未提交的修改（包括暂存区）
