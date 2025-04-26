@@ -120,3 +120,11 @@ git config --global user.email "邮箱"
 ```
 telnet github.com 443
 ```
+
+### 其他
+
+#### ​​关闭自动转换
+在添加计划改动时可能出现一种换行符自动转换的问题，使用下面命令关闭自动转换
+```
+git config core.autocrlf false
+```
